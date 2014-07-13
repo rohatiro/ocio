@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/rohatiro/ocio/issues"
   },
-  "homepage": "https://github.com/rohatiro/ocio"
+  "homepage": "https://github.com/rohatiro/ocio",
+  "dependencies": {
+    "express": "^4.6.1"
+  }
 }
