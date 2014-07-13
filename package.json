@@ -1,0 +1,24 @@
+{
+  "name": "ocio",
+  "version": "0.0.0",
+  "description": "Proyecto de ocio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohatiro/ocio.git"
+  },
+  "keywords": [
+    "ocio",
+    "pruebas",
+    "experimentos"
+  ],
+  "author": "rohatiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohatiro/ocio/issues"
+  },
+  "homepage": "https://github.com/rohatiro/ocio"
+}
