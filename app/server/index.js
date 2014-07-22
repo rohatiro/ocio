@@ -4,6 +4,10 @@ swig = require('swig');
 express = require('express');
 path = require('path');
 
+var routes;
+
+routes = require('./routes');
+
 app = function(server) {
 	var rootdir,viewsdir,assetsdir;
 
@@ -17,9 +21,7 @@ app = function(server) {
 
 	server.use(express.static(assetsdir));
 
-	server.get('/', function(req, res) {
-		res.render('index');
-	});
+	routes(server);
 
 	server.listen(8000);
 };
